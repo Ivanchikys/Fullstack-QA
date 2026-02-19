@@ -17,7 +17,7 @@ https://automationteststore.com/
 - Корзина
 - Оформление заказа
 - Личный кабинет
-- Страница счёта (invoice)
+- Страница счёта
 
 ---
 
@@ -116,7 +116,7 @@ https://automationteststore.com/
 ---
 
 ## 9. Окружение
-- ОС: Windows
+- ОС: Windows 11
 - Браузеры: Microsoft Edge
 - Режим: инкогнито
 - Очистка cookies перед тестами
