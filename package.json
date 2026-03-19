@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint \".//\"",
+    "lint-fix": "eslint \".//\" --fix"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ivanchikys/Fullstack-QA.git"
@@ -17,7 +20,13 @@
   },
   "homepage": "https://github.com/Ivanchikys/Fullstack-QA#readme",
   "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "@eslint/json": "^1.0.1",
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.3.0"
+    "@stylistic/eslint-plugin": "^5.9.0",
+    "@types/node": "^25.3.0",
+    "eslint": "^9.39.3",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-playwright": "^2.8.0"
   }
 }
